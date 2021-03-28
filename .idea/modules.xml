@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ImpossibleMods.iml" filepath="$PROJECT_DIR$/.idea/modules/ImpossibleMods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ImpossibleMods/ImpossibleMods-ImpossibleMods.iml" filepath="$PROJECT_DIR$/.idea/modules/ImpossibleMods/ImpossibleMods-ImpossibleMods.iml" group="ImpossibleMods/ImpossibleMods" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ImpossibleMods/ImpossibleMods-ImpossibleMods_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ImpossibleMods/ImpossibleMods-ImpossibleMods_main.iml" group="ImpossibleMods/ImpossibleMods" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ImpossibleMods/ImpossibleMods-ImpossibleMods_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ImpossibleMods/ImpossibleMods-ImpossibleMods_test.iml" group="ImpossibleMods/ImpossibleMods" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestMod.iml" filepath="$PROJECT_DIR$/.idea/modules/TestMod.iml" group="ImpossibleMods/TestMod" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestMod/TestMod_main.iml" filepath="$PROJECT_DIR$/.idea/modules/TestMod/TestMod_main.iml" group="ImpossibleMods/TestMod" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/TestMod/TestMod_test.iml" filepath="$PROJECT_DIR$/.idea/modules/TestMod/TestMod_test.iml" group="ImpossibleMods/TestMod" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/repos-ImpossibleMods.iml" filepath="$PROJECT_DIR$/.idea/modules/repos-ImpossibleMods.iml" group="ImpossibleMods" />
+    </modules>
+  </component>
+</project>
