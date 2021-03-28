@@ -1,4 +1,16 @@
+org/benhess/impossiblemods/items/IMRegisteredItem.java
+ org.benhess.impossiblemods.items.IMRegisteredItem
+org/benhess/impossiblemods/items/IMRegisteredVanillaItem.java
+ org.benhess.impossiblemods.items.IMRegisteredVanillaItem
 org/benhess/impossiblemods/ImpossibleMod.java
  org.benhess.impossiblemods.ImpossibleMod
+org/benhess/impossiblemods/items/IMItemManager.java
+ org.benhess.impossiblemods.items.IMItemManager
+org/benhess/impossiblemods/items/IMRegisteredCustomItem.java
+ org.benhess.impossiblemods.items.IMRegisteredCustomItem
 org/benhess/impossiblemods/ImpossibleMods.java
  org.benhess.impossiblemods.ImpossibleMods
+org/benhess/impossiblemods/items/IMCustomItem.java
+ org.benhess.impossiblemods.items.IMCustomItem
+org/benhess/impossiblemods/items/IMCustomToolItem.java
+ org.benhess.impossiblemods.items.IMCustomToolItem

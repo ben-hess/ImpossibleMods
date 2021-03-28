@@ -1,2 +1,6 @@
 org/benhess/testmod/TestMod.java
  org.benhess.testmod.TestMod
+org/benhess/testmod/TestItem.java
+ org.benhess.testmod.TestItem
+org/benhess/testmod/TestTool.java
+ org.benhess.testmod.TestTool

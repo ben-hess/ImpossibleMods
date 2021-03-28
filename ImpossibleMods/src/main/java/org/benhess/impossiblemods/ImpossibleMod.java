@@ -8,4 +8,6 @@ public abstract class ImpossibleMod extends JavaPlugin implements Listener {
     public void onEnable(){
         getServer().getPluginManager().registerEvents(this, this);
     }
+
+    public abstract void onModLoad(ImpossibleMods loader);
 }
