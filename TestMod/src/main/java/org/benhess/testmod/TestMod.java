@@ -1,6 +1,6 @@
 package org.benhess.testmod;
 
-import org.bukkit.plugin.java.JavaPlugin;
+import org.benhess.impossiblemods.ImpossibleMod;
 
-public class TestMod extends JavaPlugin {
+public class TestMod extends ImpossibleMod {
 }

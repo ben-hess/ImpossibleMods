@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="67dd5ad2-189c-4ab9-8081-b4d6e9617282" name="Default Changelist" comment="" />
+    <list default="true" id="67dd5ad2-189c-4ab9-8081-b4d6e9617282" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/ImpossibleMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/ImpossibleMods.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/ImpossibleMods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMod/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/TestMod/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMod/src/main/java/org/benhess/testmod/TestMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestMod/src/main/java/org/benhess/testmod/TestMod.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

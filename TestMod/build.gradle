@@ -18,6 +18,8 @@ dependencies {
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine'
 
     implementation 'org.spigotmc:spigot-api:1.16.5-R0.1-SNAPSHOT'
+
+    implementation project(":ImpossibleMods")
 }
 
 test {

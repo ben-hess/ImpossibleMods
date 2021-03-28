@@ -1,2 +1,4 @@
+org/benhess/impossiblemods/ImpossibleMod.java
+ org.benhess.impossiblemods.ImpossibleMod
 org/benhess/impossiblemods/ImpossibleMods.java
  org.benhess.impossiblemods.ImpossibleMods
