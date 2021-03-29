@@ -1,10 +1,11 @@
 package org.benhess.impossiblemods.items;
 
 import org.bukkit.Material;
+import org.bukkit.inventory.ItemStack;
+import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.List;
 
 public class IMItemManager {
 
@@ -24,7 +25,7 @@ public class IMItemManager {
             }
 
             int nextId = customItems.get(i).getCustomItemId();
-            if(id < nextId){
+            if(id <= nextId){
                 id = nextId + 1;
             }
         }
@@ -40,5 +41,18 @@ public class IMItemManager {
         IMRegisteredVanillaItem registeredItem = new IMRegisteredVanillaItem(material);
         vanillaItemCache.put(material, registeredItem);
         return registeredItem;
+    }
+
+    public IMRegisteredItem findItem(ItemStack stack){
+        ItemMeta meta = stack.getItemMeta();
+        if(meta != null && meta.hasCustomModelData()){
+            int modelData = meta.getCustomModelData();
+            for (IMRegisteredCustomItem customItem : customItems) {
+                if (customItem.getCustomItemId() == modelData) {
+                    return customItem;
+                }
+            }
+        }
+        return getVanillaItem(stack.getType());
     }
 }

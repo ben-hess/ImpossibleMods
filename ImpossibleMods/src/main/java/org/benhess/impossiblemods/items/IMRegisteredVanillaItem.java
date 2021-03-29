@@ -16,16 +16,4 @@ public class IMRegisteredVanillaItem implements IMRegisteredItem {
     public ItemStack createItemStack(int amount) {
         return new ItemStack(material, amount);
     }
-
-    @Override
-    public boolean matchesItemStack(ItemStack stack) {
-        if(stack.getType() != material){
-            return false;
-        }
-        ItemMeta meta = stack.getItemMeta();
-        if(meta != null && meta.hasCustomModelData()){
-            return false;
-        }
-        return true;
-    }
 }

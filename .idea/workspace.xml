@@ -5,15 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="67dd5ad2-189c-4ab9-8081-b4d6e9617282" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/items/IMCustomItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/items/IMCustomToolItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/items/IMItemManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/items/IMRegisteredCustomItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/items/IMRegisteredItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/items/IMRegisteredVanillaItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestMod/src/main/java/org/benhess/testmod/TestItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TestMod/src/main/java/org/benhess/testmod/TestTool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/events/IMEventHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/executionHistory/executionHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/fileHashes/fileHashes.bin" afterDir="false" />
@@ -24,12 +16,19 @@
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/javaCompile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.7/javaCompile/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImpossibleMods/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ImpossibleMods/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/ImpossibleMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/ImpossibleMod.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/ImpossibleMods.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/ImpossibleMods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/items/IMCustomItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/items/IMCustomItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/items/IMCustomToolItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/items/IMCustomToolItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/items/IMItemManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/items/IMItemManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/items/IMRegisteredCustomItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/items/IMRegisteredCustomItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/items/IMRegisteredItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/items/IMRegisteredItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/items/IMRegisteredVanillaItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/ImpossibleMods/src/main/java/org/benhess/impossiblemods/items/IMRegisteredVanillaItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestMod/build/tmp/compileJava/source-classes-mapping.txt" beforeDir="false" afterPath="$PROJECT_DIR$/TestMod/build/tmp/compileJava/source-classes-mapping.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMod/src/main/java/org/benhess/testmod/TestItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestMod/src/main/java/org/benhess/testmod/TestItem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/TestMod/src/main/java/org/benhess/testmod/TestMod.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestMod/src/main/java/org/benhess/testmod/TestMod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TestMod/src/main/java/org/benhess/testmod/TestTool.java" beforeDir="false" afterPath="$PROJECT_DIR$/TestMod/src/main/java/org/benhess/testmod/TestTool.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,5 +100,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

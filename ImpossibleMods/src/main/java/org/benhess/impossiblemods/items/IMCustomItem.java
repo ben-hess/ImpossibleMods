@@ -2,6 +2,11 @@ package org.benhess.impossiblemods.items;
 
 import org.bukkit.ChatColor;
 import org.bukkit.Material;
+import org.bukkit.block.Block;
+import org.bukkit.block.BlockFace;
+import org.bukkit.entity.Player;
+import org.bukkit.event.player.PlayerInteractEvent;
+import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 
 import java.util.ArrayList;
@@ -26,8 +31,14 @@ public abstract class IMCustomItem {
         }
     }
 
+    public void onBlockInteract(Player player, ItemStack item, Block block, BlockFace blockFace){ }
+
+    public boolean usesVanillaBehavior(){
+        return false;
+    }
+
     public Material getBukkitMaterial(){
-        return Material.STONE;
+        return Material.STICK;
     }
 
     protected void setDescription(String... lines){

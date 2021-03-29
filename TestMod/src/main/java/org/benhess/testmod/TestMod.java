@@ -20,6 +20,6 @@ public class TestMod extends ImpossibleMod {
 
     @EventHandler
     public void onPlayerJoin(PlayerJoinEvent ev){
-        ev.getPlayer().getInventory().addItem(registeredTestTool.createItemStack(1));
+        ev.getPlayer().getInventory().addItem(registeredTestTool.createItemStack(1), registeredTestItem.createItemStack(1));
     }
 }

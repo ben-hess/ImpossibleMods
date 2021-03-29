@@ -1,5 +1,6 @@
 package org.benhess.impossiblemods;
 
+import org.benhess.impossiblemods.events.IMEventHandler;
 import org.benhess.impossiblemods.items.IMItemManager;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -9,10 +10,13 @@ import java.util.ArrayList;
 public class ImpossibleMods extends JavaPlugin {
 
     private IMItemManager itemManager;
+    private IMEventHandler eventHandler;
 
     @Override
     public void onEnable(){
         itemManager = new IMItemManager();
+        eventHandler = new IMEventHandler(itemManager);
+        getServer().getPluginManager().registerEvents(eventHandler, this);
         getServer().getScheduler().scheduleSyncDelayedTask(this, () -> loadMods());
     }
 

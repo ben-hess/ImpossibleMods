@@ -25,15 +25,6 @@ public class IMRegisteredCustomItem implements IMRegisteredItem {
         return stack;
     }
 
-    @Override
-    public boolean matchesItemStack(ItemStack stack) {
-        ItemMeta meta = stack.getItemMeta();
-        if(meta != null && meta.hasCustomModelData()){
-            return meta.getCustomModelData() == customItemId;
-        }
-        return false;
-    }
-
     public IMCustomItem getItem(){
         return item;
     }
